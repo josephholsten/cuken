@@ -53,7 +53,7 @@ RoodiTask.new do |t|
   t.verbose = false
 end
 
-task :default => :spec
+task :default => :features
 
 require 'yard'
 YARD::Rake::YardocTask.new
